@@ -6,6 +6,7 @@ header{
     width: 100%;
     justify-content: space-around;
     align-items: center;
+    z-index: 1;
 }
 
 .link-gender, .link-account{
@@ -27,4 +28,26 @@ li{
 .logo{
     display: inline-block;
     width: 25%;
+}
+
+.section-container{
+    display: flex;
+    margin: 0 10% 5%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+section{
+    background-color: blue;
+    width: 300px;
+    height: 500px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.sect-1, .sect-2, .sect-3{
+    position: relative;
+    top: 8rem;
 }
