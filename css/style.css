@@ -1,0 +1,30 @@
+header{
+    background-color: orangered;
+    padding: 30px 0;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link-gender, .link-account{
+    display: flex;
+    list-style: none;
+}
+
+a{
+    display: inline;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li{
+    padding: 10%;
+}
+
+.logo{
+    display: inline-block;
+    width: 25%;
+}
