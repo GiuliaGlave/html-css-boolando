@@ -28,6 +28,7 @@ a{
 
 li{
     list-style: none;
+    display: inline-block;
 }
 
 .logo{
@@ -40,7 +41,6 @@ li{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    row-gap: 1rem;
 }
 
 section{
@@ -99,4 +99,19 @@ section{
 .original-price{
     font-weight: lighter;
     text-decoration: line-through;
+}
+
+
+footer{
+    color: white;
+    background-color: black;
+    height: 200px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: large;
+    font-weight: bolder;
 }
