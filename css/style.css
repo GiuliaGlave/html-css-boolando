@@ -1,22 +1,29 @@
 .container{
     margin: 0 15%;
-    width: 100%;
+    width: 1200px;
 }
 
 header{
-    background-color: orangered;
-    padding: 20px 0;
+    background-color: #ff6900;
+    min-height: 90px;
     display: flex;
     position: fixed;
     width: 100%;
-    justify-content: space-between;
     align-items: center;
     z-index: 2;
 }
 
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .link-gender, .link-account{
+    text-align: center;
     display: flex;
     list-style: none;
+    gap: 10px;
 }
 
 a{
@@ -33,7 +40,8 @@ li{
 
 .logo{
     display: inline-block;
-    width: 15%;
+    max-width: 15%;
+    text-align: center;
 }
 
 .section-container{
@@ -47,7 +55,6 @@ section{
     background-color: blue;
     width: calc(100%/3);
     height: 500px;
-    margin-top: 60px;
     margin-bottom: 20px;
 }
 
@@ -104,14 +111,37 @@ section{
 
 footer{
     color: white;
-    background-color: black;
-    height: 200px;
-    padding: 20px 0;
+    background-color: #1a1a1a;
+    height: 150px;
+    
+}
+
+.footer-container{
     display: flex;
     justify-content: space-between;
+}
+
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
 }
 
 h1{
     font-size: large;
     font-weight: bolder;
+}
+
+.link-info{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items:center;
 }
