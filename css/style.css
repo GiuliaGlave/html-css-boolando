@@ -52,24 +52,24 @@ li{
 }
 
 section{
-    background-color: blue;
     width: calc(100%/3);
-    height: 500px;
     margin-bottom: 20px;
+    position: relative;
+    top: 120px;
 }
 
-.sect-1, .sect-2, .sect-3{
-    position: relative;
-    top: 8rem;
+.card{
+    width: calc(100%/3);
+    padding: 10px;
 }
 
 .add-favorite{
     background-color: white;
     padding: 2% 4%;
-    font-size: x-large;
+    font-size: 28px;
     position: absolute;
-    bottom: 90%;
-    left: 87%;
+    bottom: 89%;
+    left: 86%;
 }
 
 .discount-label{
