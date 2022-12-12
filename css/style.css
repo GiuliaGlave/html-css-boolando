@@ -74,18 +74,22 @@ section{
 
 .discount-label{
     background-color: red;
-    font-size: smaller;
+    font-size: 13px;
     font-weight: bold;
     color: white;
-    padding: 1% 3%;
+    padding: 1% 2%;
     position: absolute;
-    bottom: 27%;
+    bottom: 15%;
 }
 
 .green-label{
     background-color: green;
     color: white;
-    padding: 1% 3%;
+    font-size: 15px;
+    padding: 1% 2%;
+    position: relative;
+    top: -64px;
+    left: 50px;
 }
 
 .brand{
