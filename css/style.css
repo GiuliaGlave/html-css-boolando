@@ -63,6 +63,21 @@ section{
     padding: 10px;
 }
 
+/* hover */
+
+.card-pic img.hover{
+    display: none;
+}
+
+.card-pic:hover img.front{
+    display: none;
+}
+
+.card-pic:hover img.hover{
+    display: inline-block;
+}
+
+/* labels */
 .add-favorite{
     background-color: white;
     padding: 2% 4%;
