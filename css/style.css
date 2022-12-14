@@ -80,16 +80,22 @@ section{
     padding: 1% 2%;
     position: absolute;
     bottom: 15%;
+    left: 10px
 }
 
 .green-label{
     background-color: green;
     color: white;
     font-size: 15px;
-    padding: 1% 2%;
+    padding: 4px 13px;
     position: relative;
-    top: -64px;
-    left: 50px;
+    top: -67px;
+    left: 52px;
+}
+
+.green-label.last-card{
+    position: relative;
+    left: 0;
 }
 
 .brand{
