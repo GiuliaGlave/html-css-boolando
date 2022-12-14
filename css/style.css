@@ -1,3 +1,6 @@
+*{
+    font-family: Helvetica, sans-serif;
+}
 .container{
     margin: 0 15%;
     width: 1200px;
@@ -35,7 +38,6 @@ a{
 
 li{
     list-style: none;
-    display: inline-block;
 }
 
 .logo{
@@ -94,7 +96,7 @@ section{
     color: white;
     padding: 1% 2%;
     position: absolute;
-    bottom: 15%;
+    bottom: 126px;
     left: 10px
 }
 
@@ -129,6 +131,7 @@ section{
 }
 
 .original-price{
+    color: black;
     font-weight: lighter;
     text-decoration: line-through;
 }
